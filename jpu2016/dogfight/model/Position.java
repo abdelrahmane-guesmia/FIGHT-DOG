@@ -7,7 +7,10 @@ public class Position {
 	private double maxY;
 	
 	public Position(double x, double y, double maxX, double maxY){
-		//A completer
+		this.x = x;
+		this.y = y;
+		this.maxX = maxX;
+		this.maxY = maxY;
 	}
 	
 	public Position(Position position){

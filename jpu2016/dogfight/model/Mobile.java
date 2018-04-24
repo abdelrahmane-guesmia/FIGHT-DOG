@@ -9,7 +9,7 @@ public class Mobile implements IMobile{
 	private int speed;
 	
 	public Mobile(Direction direction, Position position, Dimension dimension, int speed, String image){
-		
+		this.speed = speed;
 	}
 
 	private void moveUp(){
@@ -72,7 +72,7 @@ public class Mobile implements IMobile{
 	@Override
 	public int getSpeed() {
 		// TODO Auto-generated method stub
-		return 0;
+		return this.speed;
 	}
 
 	@Override

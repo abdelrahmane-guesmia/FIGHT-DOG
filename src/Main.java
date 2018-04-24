@@ -12,5 +12,12 @@ public class Main
 		final DogfightView dogfightView = new DogfightView(dogfightController, dogfightModel, dogfightModel); 
 		dogfightController.setViewSystem(dogfightView); 
 		dogfightController.play();
+		
+		int speed;
+		Dimension cielBleu = new Dimension(200,200);
+
+		Mobile avion = new Plane(1, Direction.UP, new Position(5,5,10,10), "avion");
+		System.out.println(avion.getSpeed());
+		
 	}
 }

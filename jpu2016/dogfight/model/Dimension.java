@@ -5,11 +5,12 @@ public class Dimension {
 	private int height;
 	
 	public Dimension(int width, int height){
-		//A completer
+		this.width = width;
+		this.height = height;
 	}
 	
 	public Dimension(Dimension dimension){
-		//A completer
+		
 	}
 
 	public int getWidth() {

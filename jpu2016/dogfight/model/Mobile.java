@@ -12,23 +12,23 @@ public class Mobile implements IMobile{
 		
 	}
 
-	private void moveUp (){
+	private void moveUp(){
 		
 	}
 
-	private void moveRight (){
+	private void moveRight(){
 		
 	}
 
-	private void moveDown (){
+	private void moveDown(){
 		
 	}
 
-	private void moveLeft () {
+	private void moveLeft() {
 		
 	}
 
-	public Color getColor () {
+	public Color getColor() {
 		return null;
 		
 	}

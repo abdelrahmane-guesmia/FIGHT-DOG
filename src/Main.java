@@ -1,10 +1,9 @@
 package src;
 
-public class main {
+public class Main {
 
 	public static void main(String[] args) {
 		System.out.println("coucou");
 		System.out.println("coucou");
 	}
-
 }

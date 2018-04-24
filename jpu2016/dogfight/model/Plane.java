@@ -7,7 +7,7 @@ public class Plane {
 	private int player;
 	
 	public Plane(int player, Direction direction, Position position, String image){
-		
+		//A completer
 	}
 	
 	public boolean isPlayer(int player){

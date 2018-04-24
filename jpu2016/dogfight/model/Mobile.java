@@ -99,6 +99,11 @@ public class Mobile implements IMobile{
 		return false;
 	}
 
+	
+	public IDogfightModel getDogfightModel(){
+		return null;
+	}
+	
 	@Override
 	public void setDogfightModel(DogfightModel dogfightModel) {
 		// TODO Auto-generated method stub

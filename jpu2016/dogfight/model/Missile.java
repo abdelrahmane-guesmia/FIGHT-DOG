@@ -25,7 +25,7 @@ public class Missile {
 	}
 	
 	public boolean isWeapon(){
-		return false;
+		return false;//
 	}
 
 }

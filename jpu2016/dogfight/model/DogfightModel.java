@@ -3,38 +3,38 @@ package jpu2016.dogfight.model;
 import java.util.ArrayList;
 
 public class DogfightModel implements IDogfightModel{
-	
-	public DogfightModel(){
-	}
-	
-	public IArea getArea(){
+
+	@Override
+	public IArea getArea() {
 		return null;
-		//A completer
 	}
-	
-	public void buildArea(Dimension dimension){
-		//A completer
+
+	@Override
+	public void buildArea(Dimension dimension) {
 	}
-	
-	public void addMobile(IMobile Mobile){
-		//A completer
+
+	@Override
+	public void addMobile(IMobile Mobile) {
+		
 	}
-	
-	public void removeMobile(IMobile Mobile){
-		//A completer
+
+	@Override
+	public void removeMobile(IMobile Mobile) {
+		
 	}
-	
-	public ArrayList<IMobile> getMobiles(){
+
+	@Override
+	public ArrayList<IMobile> getMobiles() {
 		return null;
-		//A completer
 	}
-	
-	public IMobile getMobilesByPlayer(int player){
+
+	@Override
+	public IMobile getMobileByPlayer(int player) {
 		return null;
-		//A completer
 	}
-	
-	public void setMobilesHavesMoved(){
-		//A completer
+
+	@Override
+	public void setMobilesHavesMoved() {
+		
 	}
 }

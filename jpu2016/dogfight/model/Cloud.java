@@ -7,6 +7,6 @@ public class Cloud extends Mobile{
 	private static final String IMAGE= "cloud";
 	
 	public Cloud(Direction direction, Dimension dimension){
-		//A completer
+		super(direction, null, dimension, SPEED, null);//A completer
 	}
 }

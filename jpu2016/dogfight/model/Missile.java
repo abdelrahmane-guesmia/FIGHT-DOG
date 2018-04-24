@@ -9,7 +9,7 @@ public class Missile extends Mobile{
 	private int distanceTraveled = 0;
 	
 	public Missile(Direction direction, Dimension dimension){
-		//Completer
+		super(direction, null, dimension, SPEED, IMAGE);//Completer
 	}
 	
 	public static int getWidthADirection(Direction direction){

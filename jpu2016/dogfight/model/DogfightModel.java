@@ -4,6 +4,10 @@ import java.util.ArrayList;
 
 public class DogfightModel implements IDogfightModel{
 
+	public DogfightModel() {
+		
+	}
+	
 	@Override
 	public IArea getArea() {
 		return null;

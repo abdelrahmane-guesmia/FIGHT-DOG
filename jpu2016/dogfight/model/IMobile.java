@@ -1,6 +1,7 @@
 package jpu2016.dogfight.model;
 
-
+import java.awt.Image;
+import java.awt.Point;
 
 public interface IMobile {
 	
@@ -22,11 +23,11 @@ public interface IMobile {
 	
 	public void move();
 	
-	public void placeInArea(Iarea area);
+	public void placeInArea(IArea area);
 	
 	public boolean isPlayer(int player);
 	
-	public setDogfightModel(DogfightModel dogfightModel);
+	public void setDogfightModel(DogfightModel dogfightModel);
 	
 	public boolean hit();
 	

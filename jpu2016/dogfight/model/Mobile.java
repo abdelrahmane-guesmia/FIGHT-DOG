@@ -44,8 +44,7 @@ public class Mobile {
 		return false;
 	}
 	
-	private void moveUp(){
-	}
+	private void moveUp(){	}
 	
 	
 	

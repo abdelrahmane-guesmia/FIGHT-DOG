@@ -7,14 +7,21 @@ public class UserOrder implements IUserOrder
 	{
 		this.player = player;
 	}
+	
+	@Override
 	public Order getOrder()
 	{
 		return this.getOrder();
 	}
-	public int getPlayer() {
+	
+	@Override
+	public int getPlayer() 
+	{
 		return player;
 	}
-	public void setPlayer(int player) {
+	
+	public void setPlayer(int player) 
+	{
 		this.player = player;
 	}
 	

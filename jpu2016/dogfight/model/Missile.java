@@ -9,7 +9,7 @@ public class Missile {
 	private int distanceTraveled = 0;
 	
 	public Missile(Direction direction, Dimension dimension){
-		//A completer
+		//Completer
 	}
 	
 	public int getWidthADirection(Direction direction){

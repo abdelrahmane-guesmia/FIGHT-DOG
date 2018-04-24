@@ -14,7 +14,8 @@ public class Position {
 	}
 	
 	public Position(Position position){
-		//A completer
+		position.getX();
+		position.getY();
 	}
 
 	public double getX() {

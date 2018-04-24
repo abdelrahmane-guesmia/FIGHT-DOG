@@ -13,11 +13,14 @@ public class Main
 		dogfightController.setViewSystem(dogfightView); 
 		dogfightController.play();
 		
-		int speed;
 		Dimension cielBleu = new Dimension(200,200);
 
-		Mobile avion = new Plane(1, Direction.UP, new Position(5,5,10,10), "avion");
-		System.out.println(avion.getSpeed());
+		Plane avion = new Plane(1, Direction.UP, new Position(5,5,10,10), "avion");
+		
+		Missile missile = new Missile(Direction.RIGHT, cielBleu);
+		
+		System.out.println(avion.getDimension().getWidth());
+		System.out.println(avion.getDimension().getHeight());
 		
 	}
 }

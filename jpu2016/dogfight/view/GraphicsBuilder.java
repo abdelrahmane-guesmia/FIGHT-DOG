@@ -35,8 +35,4 @@ public class GraphicsBuilder implements IGraphicsBuilder {
 		// TODO Auto-generated method stub
 		return 0;
 	}
-
-	
-	
-	
 }

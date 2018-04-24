@@ -7,9 +7,14 @@ import java.awt.Point;
 public class Mobile implements IMobile{
 
 	private int speed;
+	private Dimension dimension;
+	private Position position;
 	
 	public Mobile(Direction direction, Position position, Dimension dimension, int speed, String image){
 		this.speed = speed;
+		this.dimension = dimension;
+		this.getDirection();
+		this.getPosition();
 	}
 
 	private void moveUp(){
@@ -35,26 +40,25 @@ public class Mobile implements IMobile{
 	
 	@Override
 	public Direction getDirection() {
-		// TODO Auto-generated method stub
+		
 		return null;
 	}
 
 	@Override
 	public void setDirection(Direction direction) {
-		// TODO Auto-generated method stub
+
 		
 	}
 
 	@Override
 	public Point getPosition() {
-		// TODO Auto-generated method stub
 		return null;
 	}
 
 	@Override
 	public Dimension getDimension() {
-		// TODO Auto-generated method stub
-		return null;
+
+		return dimension;
 	}
 
 	@Override
@@ -71,13 +75,11 @@ public class Mobile implements IMobile{
 
 	@Override
 	public int getSpeed() {
-		// TODO Auto-generated method stub
 		return this.speed;
 	}
 
 	@Override
 	public Image getImage() {
-		// TODO Auto-generated method stub
 		return null;
 	}
 

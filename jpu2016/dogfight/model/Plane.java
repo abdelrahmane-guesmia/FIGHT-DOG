@@ -15,7 +15,10 @@ public class Plane extends Mobile{
 	}
 	
 	public boolean isPlayer(int player){
-		return false; //A completer
+		if(player > 0)
+			return true;
+		else
+			return false;
 	}
 	
 	public boolean hit(){
